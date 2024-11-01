@@ -14,7 +14,7 @@ export default function Header({ footerRef }) {
     if (pathname === "/") return "home";
     if (pathname === "/about") return "about";
     if (pathname === "/products") return "products";
-    if (pathname === "/blog") return "blog";
+    if (pathname === "/semeadeira") return "semeadeira";
     if (pathname === "/contact") return "contact";
     return "";
   };
@@ -39,11 +39,11 @@ export default function Header({ footerRef }) {
           className="w-full flex items-center justify-between"
         >
           <div className="flex flex-1">
-            <a href="/" className="p-2">
+            <a href="#" className="p-2">
               <span className="sr-only">Your Company</span>
               <img
                 alt="Logo"
-                src="/imgs/logo.png"
+                src="/imgs/integracao/logo.png"
                 className="h-10 md:h-12 w-auto"
               />
             </a>
@@ -59,25 +59,25 @@ export default function Header({ footerRef }) {
             </button>
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
-            <Link href="/" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "home" ? "border-b-4 border-[#F17708] text-customGreen" : ""
+            <Link href="/" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "home" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
               }`}>
               Home
             </Link>
-            <Link href="/about" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "about" ? "border-b-4 border-[#F17708] text-customGreen" : ""
+            <Link href="/about" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "about" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
               }`}>
               Quem Somos
             </Link>
-            <Link href="/products" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "products" ? "border-b-4 border-[#F17708] text-customGreen" : ""
+            <Link href="/products" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "products" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
               }`}>
               Produtos
             </Link>
-            <Link href="/blog" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "blog" ? "border-b-4 border-[#F17708] text-customGreen" : ""
+            <Link href="/semeadeira" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "blog" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
               }`}>
-              Blog
+              Semeadeira
             </Link>
             <Link
               href="/contact"
-              className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "contact" ? "border-b-4 border-[#F17708] text-customGreen" : ""
+              className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "contact" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
                 }`}
               onClick={(e) => {
                 e.preventDefault(); // Prevent default link behavior
@@ -135,10 +135,10 @@ export default function Header({ footerRef }) {
                     Produtos
                   </Link>
                   <Link
-                    href="/blog"
+                    href="/semeadeira"
                     className={`block py-2 text-base font-semibold ${activeLink === "blog" ? "text-customGreen" : "text-gray-900"} hover:bg-gray-50`}
                   >
-                    Blog
+                    Semeadeira
                   </Link>
                   <a
                     href="#"

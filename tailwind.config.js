@@ -1,13 +1,44 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      
+      colors: {
+        customGreen: '#116735',
+      },
+      backgroundImage: {
+        'banner-1': "url('/imgs/integracao/banner-1.png')",
+        'banner-2': "url('/imgs/integracao/banner-2.png')",
+        'semeadeira': "url('/imgs/integracao/semeadeira-bg.png')",
+        'brachiaria': "url('/imgs/bachiaria.png')",
+        'panicum': "url('/imgs/panicum.png')",
+        'leguminosas': "url('/imgs/leguminosas.png')",
+        'gramineas': "url('/imgs/gramineas.png')",
+      },
+      backgroundPosition: {
+        'bannerPosition-1': 'top right 0rem',
+        'responsive-b1': 'top right -10rem',
+        'responsive-p-b1': 'top right -19rem',
+        'bannerPosition-2': 'top right',
+        'responsive-b2': 'top right -10rem',
+        'mercadoExterno': 'bottom left',
+      },
+      fontFamily: {
+        openSans: ['openSans', 'sans-serif'],
+        effra: ['effra', 'serif'],
+      },
+      fontWeight: {
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semiBold: 600,
+        bold: 700,
+        extraBold: 800,
+      },
     },
   },
   plugins: [],

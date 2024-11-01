@@ -1,8 +1,7 @@
 import Apresentation from "./Apresentation";
 import Produtos from "./Produtos";
 import QuemSomos from "./QuemSomos";
-import Indicacoes from "./Indicacoes";
-import Diferenciais from "./Diferenciais";
+import Semeadeira from "./Semeadeira";
 import Posts from "./Posts";
 export default function MainIndex() {
   return (
@@ -10,8 +9,7 @@ export default function MainIndex() {
     <Apresentation/>
     <Produtos/>
     <QuemSomos/>
-    <Indicacoes/>
-    <Diferenciais/>
+    <Semeadeira/>
     <Posts/>
     </>
   );

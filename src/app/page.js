@@ -1,9 +1,9 @@
 "use client";
-import Home from "./home/page"
-export default function App() {
+import Home from "./home/page";
+export default function Example() {
   return (
     <>
-      <Home/>
+      <Home />
     </>
-  )
+  );
 }
