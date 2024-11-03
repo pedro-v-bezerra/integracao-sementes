@@ -20,16 +20,16 @@ export default function Apresentation() {
       <div className="relative overflow-hidden">
         <Slider {...settings} ref={sliderRef}>
           {/* SLIDE 1 */}
-          <div className="bg-banner-1 bg-cover bg-responsive-b1 md:bg-bannerPosition-1 md:px-8 lg:px-16 xl:px-40">
+          <div className="bg-banner-1 bg-cover bg-responsive-b1 md:bg-bannerPosition-1 px-8 md:px-8 lg:px-16 xl:px-40">
             <div className="pt-36 pb-10">
               <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 pt-0">
                 {/* Main Content */}
                 <div className="flex flex-col items-start justify-start md:col-start-1 md:row-start-2 md:col-span-2">
                   <p className="text-white font-openSans text-lg md:text-xl lg:text-2xl tracking-widest font-light">
-                    SAFRASUL SEMENTES
+                    INTEGRAÇÃO SEMENTES
                   </p>
-                  <h1 className="text-white font-openSans font-bold text-xl md:text-3xl lg:text-5xl py-2 md:py-3 pr-0 md:pr-24 lg:pr-56">
-                    Qualidade que enriquece o agro
+                  <h1 className="text-white font-openSans font-bold text-xl md:text-3xl lg:text-5xl py-2 md:py-3">
+                    Semeando qualidade,<br/>colhendo confiança.
                   </h1>
                   <button className="text-white mt-4 bg-[#A6BB3C] py-2 px-4 md:py-1 md:px-6 rounded-full">
                     FAÇA SUA COTAÇÃO
@@ -41,7 +41,7 @@ export default function Apresentation() {
                 <div className="flex flex-col items-center justify-end md:col-start-2 md:row-start-3 pb-7 md:pb-6">
                   <img
                     src="./icons/scrow-down.svg"
-                    className="w-auto h-6 md:h-8 lg:h-10"
+                    className="w-auto h-8 md:h-8 lg:h-10"
                     alt="Scroll Down"
                   />
                 </div>
@@ -50,16 +50,16 @@ export default function Apresentation() {
           </div>
 
           {/* SLIDE 2 */}
-          <div className="bg-banner-2 bg-cover bg-responsive-b2 md:bg-bannerPosition-2 px- md:px-8 lg:px-16 xl:px-40">
+          <div className="bg-banner-2 bg-cover bg-responsive-b2 md:bg-bannerPosition-2 px-8 md:px-8 lg:px-16 xl:px-40">
             <div className="pt-36 pb-10">
               <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 pt-0">
                 {/* Main Content */}
                 <div className="flex flex-col items-start justify-start md:col-start-1 md:row-start-2 md:col-span-2">
                   <p className="text-white font-openSans text-lg md:text-xl lg:text-2xl tracking-widest font-light">
-                    SAFRASUL SEMENTES
+                  INTEGRAÇÃO SEMENTES
                   </p>
-                  <h1 className="text-white font-openSans font-bold text-xl md:text-3xl lg:text-5xl py-2 md:py-3 pr-0 md:pr-24 lg:pr-56">
-                    Qualidade que enriquece o agro
+                  <h1 className="text-white font-openSans font-bold text-xl md:text-3xl lg:text-5xl py-2 md:py-3">
+                  Semeando qualidade,<br/>colhendo confiança.
                   </h1>
                   <button className="text-white mt-4 bg-[#A6BB3C] py-2 px-4 md:py-1 md:px-6 rounded-full">
                     FAÇA SUA COTAÇÃO
@@ -71,7 +71,7 @@ export default function Apresentation() {
                 <div className="flex flex-col items-center justify-end md:col-start-2 md:row-start-3 pb-7 md:pb-6">
                   <img
                     src="./icons/scrow-down.svg"
-                    className="w-auto h-6 md:h-8 lg:h-10"
+                    className="w-auto h-8 md:h-8 lg:h-10"
                     alt="Scroll Down"
                   />
                 </div>

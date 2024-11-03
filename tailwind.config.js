@@ -9,11 +9,14 @@ module.exports = {
     extend: {
       colors: {
         customGreen: '#116735',
+        customGreen1: '#E7F1E9',
       },
       backgroundImage: {
         'banner-1': "url('/imgs/integracao/banner-1.png')",
         'banner-2': "url('/imgs/integracao/banner-2.png')",
         'semeadeira': "url('/imgs/integracao/semeadeira-bg.png')",
+        'fazemos': "url('/imgs/integracao/bg-quem-somos.png')",
+        'semeadeirapage': "url('/imgs/integracao/banner-semeadeira1.png')",
         'brachiaria': "url('/imgs/bachiaria.png')",
         'panicum': "url('/imgs/panicum.png')",
         'leguminosas': "url('/imgs/leguminosas.png')",
@@ -24,6 +27,7 @@ module.exports = {
         'responsive-b1': 'top right -10rem',
         'responsive-p-b1': 'top right -19rem',
         'bannerPosition-2': 'top right',
+        'bannerPosition-3': 'top right',
         'responsive-b2': 'top right -10rem',
         'mercadoExterno': 'bottom left',
       },

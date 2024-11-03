@@ -14,7 +14,7 @@ export default function Semeadeira() {
           </Link>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full z-10 h-[100px] bg-[#E7F1E9]"></div>
+      <div className="absolute bottom-0 w-full z-10 h-[100px] bg-customGreen1"></div>
     </div>
   );
 }

@@ -1,19 +1,13 @@
-import Aliancas from "./Aliancas";
-import CamposProducao from "./CamposProducao";
-import Comercializacao from "./Comercializacao";
-import Industrializacao from "./Industrializacao";
-import IntroducaoAbout from "./IntroducaoAbout";
-import MercadoExterno from "./MercadoExterno";
+import Introduction from "./Introduction";
+import Fazemos from "./Fazemos";
+import Mvv from "./Mvv";
 
 export default function MainAbout() {
   return (
     <>
-      <IntroducaoAbout/>
-      <CamposProducao/>
-      <Industrializacao/>
-      <Comercializacao/>
-      <MercadoExterno/>
-      <Aliancas/>
+      <Introduction />
+      <Fazemos />
+      <Mvv />
     </>
   );
 }

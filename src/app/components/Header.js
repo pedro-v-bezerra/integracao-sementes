@@ -40,7 +40,7 @@ export default function Header({ footerRef }) {
         >
           <div className="flex flex-1">
             <a href="#" className="p-2">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Integração Sementes</span>
               <img
                 alt="Logo"
                 src="/imgs/integracao/logo.png"
@@ -71,7 +71,7 @@ export default function Header({ footerRef }) {
               }`}>
               Produtos
             </Link>
-            <Link href="/semeadeira" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "blog" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
+            <Link href="/semeadeira" className={`text-lg leading-6 text-[#9B9B9B] font-openSans font-medium ${activeLink === "semeadeira" ? "border-b-4 border-[#A6BB3C] text-customGreen" : ""
               }`}>
               Semeadeira
             </Link>
@@ -97,10 +97,10 @@ export default function Header({ footerRef }) {
           <DialogPanel className="fixed inset-0 z-20 w-full max-w-sm bg-white px-6 py-6">
             <div className="flex items-center justify-between">
               <a href="#" className="p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Integração Sementes</span>
                 <img
                   alt="Logo"
-                  src="/imgs/logo.png"
+                  src="/imgs/integracao/logo.png"
                   className="h-8 w-auto"
                 />
               </a>

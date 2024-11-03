@@ -6,9 +6,9 @@ export default function Produtos() {
     <>
       <div className="relative py-4">
         {/* BG CINZA */}
-        <div className="absolute inset-0 h-full md:h-[80%] bg-[#E7F1E9] z-0"></div>
+        <div className="absolute inset-0 h-full md:h-[80%] bg-customGreen1 z-0"></div>
 
-        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 px-4 md:px-12 lg:px-40 gap-8 lg:gap-16 py-8">
+        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 px-4 md:px-12 xl:px-40 gap-8 xl:gap-16 py-8">
           {/* IMAGENS */}
           <div>
             <Image

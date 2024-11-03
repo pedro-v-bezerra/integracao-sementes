@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import Slider from 'react-slick';
-import Link from 'next/link';
 
-export default function QuemSomos() {
+export default function Introduction() {
   const sliderRef = useRef(null);
 
   const settings = {
@@ -26,25 +25,20 @@ export default function QuemSomos() {
 
   return (
     <>
-      <div className='xl:px-28 xl:pb-16'>
+      <div className='xl:px-28 xl:pt-16 xl:pb-4 bg-[#F3F8F4]'>
         <div className="grid grid-cols-1 md:grid-cols-2 pl-0 md:pl-8 lg:pl-16 py-8 gap-4 md:gap-8">
           {/* TEXTOS */}
           <div className="flex flex-col justify-center px-4 md:pl-8 lg:pl-16 text-center md:text-left">
             <h1 className="text-[#2E664D] font-openSans text-2xl md:text-3xl lg:text-4xl font-bold pt-4 md:pt-0">
               Quem Somos
             </h1>
-            <p className="text-[#354D4D] font-openSans py-4 md:pt-12 leading-7 font-medium xl:pr-0">
-              Somos sustentabilidade, inovação, produtividade e lucratividade.
+            <p className="text-[#354D4D] font-openSans py-4 md:pt-12 leading-7 font-medium tracking-wider leading-8 xl:pr-12">
+              Somos uma fornecedora de soluções em sementes forrageiras desenvolvidas com alta tecnologia. Atuamos com foco em representantes e revendas menores, agricultura familiar e agropecuaristas de cidades do interior.
             </p>
-            <p className="text-[#354D4D] font-openSans py-4 md:py-4 leading-7 font-medium xl:pr-0">
-              Em um mundo cada vez mais preocupado em produzir para alimentar a população e conservar o planeta, integramos tecnologia e experiência para produzir e comercializar soluções em sementes forrageiras.
+            
+            <p className="text-[#354D4D] font-openSans py-4 md:pb-12 leading-7 font-medium tracking-wider leading-8 xl:pr-0">
+              Trabalhamos em estreita colaboração com nossos clientes, oferecemos produtos e soluções que criam valor e vantagem competitiva ao mesmo tempo em que impactam positivamente o mundo em que vivemos.
             </p>
-            <p className="text-[#354D4D] font-openSans py-4 md:pb-12 leading-7 font-medium xl:pr-0">
-              Somos a Integração Sementes e nascemos para semear o futuro e crescer com o agronegócio brasileiro
-            </p>
-            <Link href="/about" className="text-white w-max bg-[#A5BB3C] my-8 md:my-0 py-2 px-8 md:py-1 md:px-12 lg:py-1 lg:px-16 rounded-full mx-auto md:mx-0">
-              SAIBA MAIS
-            </Link>
 
           </div>
 
