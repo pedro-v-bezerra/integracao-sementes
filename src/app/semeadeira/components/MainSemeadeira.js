@@ -1,3 +1,4 @@
+'use client'
 import Introduction from "./Introduction"
 import Controle from "./Controle"
 import Funcionamento from "./Funcionamento"

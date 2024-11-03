@@ -9,7 +9,7 @@ export default function Semeadeira() {
           <h1 className="text-white font-openSans text-4xl font-bold text-center md:text-left">
             Mais do que máquinas<br />soluções de plantio!
           </h1>
-          <Link href="/about" className="text-white w-max bg-[#A5BB3C] py-2 px-8 md:py-1 md:px-12 lg:py-1 lg:px-16 rounded-full mx-auto md:mx-0">
+          <Link href="/semeadeira" className="text-white w-max bg-[#A5BB3C] py-2 px-8 md:py-1 md:px-12 lg:py-1 lg:px-16 rounded-full mx-auto md:mx-0">
             SAIBA MAIS
           </Link>
         </div>
