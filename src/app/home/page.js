@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useRef } from "react";
 import Header from "../components/Header";
 import MainIndex from "./components/MainIndex";
