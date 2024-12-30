@@ -1,6 +1,8 @@
-# Safrasul Sementes
+# Integração
+ Sementes
 
-**Safrasul Sementes** é um site dedicado à comercialização de sementes, oferecendo uma plataforma fácil e eficiente para compra e cotação de produtos para cultivo. 
+**Integração
+ Sementes** é um site dedicado à comercialização de sementes, oferecendo uma plataforma fácil e eficiente para compra e cotação de produtos para cultivo. 
 
 ## 🚀 Funcionalidades
 
@@ -28,11 +30,13 @@
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/username/safrasul-sementes.git
+   git clone https://github.com/username/Integração
+   -sementes.git
 
 2. Navegue até o diretório do projeto:
 
-  cd safrasul-sementes
+  cd Integração
+  -sementes
 
 3. Instale as dependências:
   npm install
